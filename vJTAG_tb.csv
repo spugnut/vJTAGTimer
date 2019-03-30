@@ -1,0 +1,23 @@
+# system info vJTAG_tb on 2018.10.17.22:21:44
+system_info:
+name,value
+DEVICE,EPM240T100C5
+DEVICE_FAMILY,MAX II
+GENERATION_ID,1539811302
+#
+#
+# Files generated for vJTAG_tb on 2018.10.17.22:21:44
+files:
+filepath,kind,attributes,module,is_top
+vJTAG/testbench/vJTAG_tb/simulation/vJTAG_tb.v,VERILOG,,vJTAG_tb,true
+vJTAG/testbench/vJTAG_tb/simulation/submodules/vJTAG.v,VERILOG,,vJTAG,false
+vJTAG/testbench/vJTAG_tb/simulation/submodules/verbosity_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_verbosity_pkg,altera_conduit_bfm,false
+vJTAG/testbench/vJTAG_tb/simulation/submodules/altera_conduit_bfm.sv,SYSTEM_VERILOG,,altera_conduit_bfm,false
+vJTAG/testbench/vJTAG_tb/simulation/submodules/sld_virtual_jtag.v,VERILOG,,sld_virtual_jtag,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+vJTAG_tb.vJTAG_inst,vJTAG
+vJTAG_tb.vJTAG_inst.virtual_jtag_0,sld_virtual_jtag
+vJTAG_tb.vJTAG_inst_jtag_bfm,altera_conduit_bfm

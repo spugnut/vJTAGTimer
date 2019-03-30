@@ -1,0 +1,2 @@
+{ "" "" "" "Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance." {  } {  } 0 18236 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature." {  } {  } 0 292013 "" 0 0 "Design Software" 0 -1 0 ""}

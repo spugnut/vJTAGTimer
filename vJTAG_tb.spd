@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="vJTAG/testbench/vJTAG_tb/simulation/submodules/verbosity_pkg.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_common_sv_packages"
+   systemVerilogPackageName="avalon_vip_verbosity_pkg" />
+ <file
+   path="vJTAG/testbench/vJTAG_tb/simulation/submodules/sld_virtual_jtag.v"
+   type="VERILOG"
+   library="virtual_jtag_0" />
+ <file
+   path="vJTAG/testbench/vJTAG_tb/simulation/submodules/altera_conduit_bfm.sv"
+   type="SYSTEM_VERILOG"
+   library="vJTAG_inst_jtag_bfm" />
+ <file
+   path="vJTAG/testbench/vJTAG_tb/simulation/submodules/vJTAG.v"
+   type="VERILOG"
+   library="vJTAG_inst" />
+ <file path="vJTAG/testbench/vJTAG_tb/simulation/vJTAG_tb.v" type="VERILOG" />
+ <topLevel name="vJTAG_tb" />
+ <deviceFamily name="maxii" />
+</simPackage>

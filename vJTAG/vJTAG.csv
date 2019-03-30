@@ -1,0 +1,18 @@
+# system info vJTAG on 2018.12.31.09:31:52
+system_info:
+name,value
+DEVICE,EPM240T100C5
+DEVICE_FAMILY,MAX II
+GENERATION_ID,1546248711
+#
+#
+# Files generated for vJTAG on 2018.12.31.09:31:52
+files:
+filepath,kind,attributes,module,is_top
+simulation/vJTAG.v,VERILOG,,vJTAG,true
+simulation/submodules/sld_virtual_jtag.v,VERILOG,,sld_virtual_jtag,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+vJTAG.virtual_jtag_0,sld_virtual_jtag
